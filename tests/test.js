@@ -1,4 +1,4 @@
-var docker_cat_1 = require('./docker-cat');
+var docker_cat_1 = require('../docker-cat');
 var fs = require('fs');
 var path = require('path');
 
