@@ -1,4 +1,4 @@
-/// <reference path="..\typings\main.d.ts" />
+/// <reference path="..\typings\main" />
 var Docker = require('dockerode');
 var through2 = require('through2');
 var DockerCat = (function () {
