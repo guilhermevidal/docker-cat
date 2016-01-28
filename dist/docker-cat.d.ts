@@ -1,3 +1,4 @@
+/// <reference path="../typings/main.d.ts" />
 export declare class DockerCat {
     private _docker;
     constructor(dockerOptions: DockerOptions);

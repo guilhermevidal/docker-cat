@@ -1,3 +1,4 @@
+/// <reference path="..\typings\main.d.ts" />
 import * as Docker from 'dockerode';
 import * as fs from 'fs';
 import * as through2 from 'through2';
