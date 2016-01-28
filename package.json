@@ -2,8 +2,8 @@
   "name": "docker-cat",
   "version": "1.0.1",
   "description": "Show contents of file inside a docker image",
-  "main": "./docker-cat.js",
-  "typings": "./docker-cat.d.ts",
+  "main": "./dist/docker-cat.js",
+  "typings": "./dist/docker-cat.d.ts",
   "scripts": {
     "build": "typings install && tsc --project src",
     "test": "npm run build && node tests/test.js"
