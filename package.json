@@ -1,6 +1,6 @@
 {
   "name": "docker-cat",
-  "version": "1.0.4",
+  "version": "1.0.5-alpha.0",
   "description": "Show contents of file inside a docker image",
   "main": "./dist/docker-cat.js",
   "typings": "./dist/docker-cat.d.ts",
