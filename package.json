@@ -1,32 +1,32 @@
 {
-    "name": "docker-cat",
-    "version": "1.0.3",
-    "description": "Show contents of file inside a docker image",
-    "main": "./dist/docker-cat.js",
-    "typings": "./dist/docker-cat.d.ts",
-    "directories": {
-        "dist": "dist",
-        "test": "test"
-    },
-    "scripts": {
-        "build": "typings install && tsc --project src",
-        "test": "npm run build && node tests/test.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/guilhermevidal/docker-cat.git"
-    },
-    "author": "Guilherme Pereira Vidal",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/guilhermevidal/docker-cat/issues"
-    },
-    "homepage": "https://github.com/guilhermevidal/docker-cat",
-    "dependencies": {
-        "dockerode": "^2.2.9",
-        "through2": "^2.0.0"
-    },
-    "devDependencies": {
-        "typings": "^0.6.3"
-    }
+  "name": "docker-cat",
+  "version": "1.0.4",
+  "description": "Show contents of file inside a docker image",
+  "main": "./dist/docker-cat.js",
+  "typings": "./dist/docker-cat.d.ts",
+  "directories": {
+    "dist": "dist",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "typings install && tsc --project src",
+    "test": "npm run build && node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermevidal/docker-cat.git"
+  },
+  "author": "Guilherme Pereira Vidal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guilhermevidal/docker-cat/issues"
+  },
+  "homepage": "https://github.com/guilhermevidal/docker-cat",
+  "dependencies": {
+    "dockerode": "^2.2.9",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "typings": "^0.6.3"
+  }
 }
